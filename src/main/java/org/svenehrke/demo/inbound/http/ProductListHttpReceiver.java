@@ -15,9 +15,6 @@ class ProductListHttpReceiver {
     @Inject
     APIs.ProductListAPI productListAPI;
 
-    @Inject
-	APIs.BeveragesListAPI beveragesAPI;
-
     @CheckedTemplate(basePath = "org/svenehrke/demo/products")
     static class Templates {
         public static native TemplateInstance products(List<ProductVM> products);
