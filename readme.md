@@ -1,4 +1,4 @@
-# Demo for Sandwich Architecture in a single-module maven project 
+# Demo for Triptych Architecture in a single-module maven project 
 
 ## Usage
 
