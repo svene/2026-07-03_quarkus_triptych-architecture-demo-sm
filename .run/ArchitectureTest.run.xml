@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="ArchitectureTest" type="JUnit" factoryName="JUnit">
-    <module name="quarkus-sandwich-architecture-demo-sm" />
+    <module name="quarkus-triptych-architecture-demo-sm" />
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="org.svenehrke.demo.devsupport.*" />

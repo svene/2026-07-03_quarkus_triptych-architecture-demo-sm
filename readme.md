@@ -7,7 +7,7 @@ http://localhost:8080/hello
 ## Misc
 created using sdkman command `quarkus`:
 
-`quarkus create app --name=quarkus-sandwich-architecturedemo-sm --maven --java=21 --wrapper --code org.svenehrke.demo:quarkus-sandwich-architecture-demo-sm:1.0`
+`quarkus create app --name=quarkus-triptych-architecturedemo-sm --maven --java=21 --wrapper --code org.svenehrke.demo:quarkus-triptych-architecture-demo-sm:1.0`
 
 ## Further Info
 

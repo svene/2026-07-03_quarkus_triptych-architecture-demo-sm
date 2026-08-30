@@ -50,7 +50,7 @@ class ArchitectureTest {
 	}
 
 	@Test
-	void sandwich_architecture() {
+	void triptych_architecture() {
 		var arch = onionArchitecture()
 			.domainModels(PKG_CORE + "..")
 			.domainServices(PKG_CORE + "..")
@@ -127,9 +127,9 @@ class ArchitectureTest {
 	@ParameterizedTest
 	@ValueSource(strings = {"fruits", "beverages", "products"})
 	void only_defined_subpackages_exist(String pkg) {
-		List.of("outbound", "inbound", "core").forEach(sandwichPkg -> {
-			classes().that().resideInAPackage(".." + sandwichPkg + "..")
-				.should().resideInAnyPackage(".." + sandwichPkg + "." + pkg);
+		List.of("outbound", "inbound", "core").forEach(triptychPkg -> {
+			classes().that().resideInAPackage(".." + triptychPkg + "..")
+				.should().resideInAnyPackage(".." + triptychPkg + "." + pkg);
 		});
 		classes().that().resideInAnyPackage("..inbound..", "..outbound..")
 			.should().notBePublic().check(importedClasses);
