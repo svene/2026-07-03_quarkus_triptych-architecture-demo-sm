@@ -1,4 +1,14 @@
-# Demo for Triptych Architecture in a single-module maven project 
+# Demo for Triptych Architecture in a single-module maven project
+
+This project is intended to demonstrate the Triptych naming conventions compared to the Hexagonal / Ports and Adapters Naming conventions.
+It is not intended as a template project for new projects.
+Other projects exist for that purpose (recommended: https://github.com/svene/2026-07-26_quarkus-hexagon-demo-mm-per-tech)
+
+- Primary Adapter: * -> *Receiver
+- Core/Primary Port: *Port -> *API
+- Core: *Handler -> *Handler (unchanged)
+- Core/Secondary Port: *Port -> *SPI
+- Secondary Adapter: *Service -> *Service (unchanged)
 
 ## Usage
 
