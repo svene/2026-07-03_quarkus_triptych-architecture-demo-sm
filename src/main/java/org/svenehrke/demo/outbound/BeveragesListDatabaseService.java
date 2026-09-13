@@ -2,7 +2,7 @@ package org.svenehrke.demo.outbound;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import org.svenehrke.demo.core.BeveragesListHandler;
-import org.svenehrke.demo.outside.backend.BeveragesDB;
+import org.svenehrke.demo.external.backend.BeveragesDB;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package org.svenehrke.demo.outside.backend;
+package org.svenehrke.demo.external.backend;
 
 import java.util.List;
 
